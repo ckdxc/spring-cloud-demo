@@ -14,7 +14,7 @@
     <packaging>jar</packaging>
 
     <name>spring-cloud-demo-web-admin-feign</name>
-    <url>http://www.funtl.com</url>
+    <url>http://www.gospel.com</url>
     <inceptionYear>2018-Now</inceptionYear>
 
     <dependencies>

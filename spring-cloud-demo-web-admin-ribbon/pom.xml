@@ -58,6 +58,11 @@
             <groupId>net.sourceforge.nekohtml</groupId>
             <artifactId>nekohtml</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -66,7 +71,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.hello.spring.cloud.web.admin.ribbon.WebAdminRibbonApplication</mainClass>
+                    <mainClass>com.gospel.spring.cloud.demo.web.admin.ribbon.WebAdminRibbonApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

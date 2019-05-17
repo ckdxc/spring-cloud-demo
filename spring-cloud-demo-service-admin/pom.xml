@@ -40,7 +40,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.hello.spring.cloud.service.admin.ServiceAdminApplication</mainClass>
+                    <mainClass>com.gospel.spring.cloud.demo.service.admin.ServiceAdminApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

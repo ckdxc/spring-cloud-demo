@@ -9,7 +9,11 @@ spring:
       content-type: text/html
 
 server:
-  port: 8766
+  port: 8765
+
+feign:
+  hystrix:
+    enabled: true
 
 eureka:
   client:

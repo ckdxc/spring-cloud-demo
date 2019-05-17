@@ -58,6 +58,8 @@
             <groupId>net.sourceforge.nekohtml</groupId>
             <artifactId>nekohtml</artifactId>
         </dependency>
+
+
     </dependencies>
 
     <build>
@@ -66,7 +68,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.hello.spring.cloud.web.admin.feign.WebAdminFeignApplication</mainClass>
+                    <mainClass>com.gospel.spring.cloud.demo.web.admin.feign.WebAdminFeignApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

@@ -25,7 +25,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- Spring Settings -->
-        <spring-cloud.version>Finchley.RC1</spring-cloud.version>
+<!--        <spring-cloud.version>Finchley.RC1</spring-cloud.version>-->
+        <spring-cloud.version>Greenwich.RC2</spring-cloud.version>
     </properties>
 
     <dependencyManagement>

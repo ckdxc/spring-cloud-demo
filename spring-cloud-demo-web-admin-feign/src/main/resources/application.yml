@@ -14,11 +14,16 @@ server:
 feign:
   hystrix:
     enabled: true
-zuul:
-  ribbonIsolationStrategy: THREAD #设置Hystrix隔离策略为线程池
-  threadPool:
-    useSeparateThreadPools: true #每个路由使用独立的线程池
-
+#zuul:
+#  ribbonIsolationStrategy: THREAD #设置Hystrix隔离策略为线程池
+#  threadPool:
+#    useSeparateThreadPools: true #每个路由使用独立的线程池
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        timeout:
+#          enabled=false: false
 #management:
 #  endpoints:
 #    web:

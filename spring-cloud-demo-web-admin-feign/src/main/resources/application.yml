@@ -14,6 +14,10 @@ server:
 feign:
   hystrix:
     enabled: true
+    #线程池核心线程数 默认是 10
+    threadpool:
+      default:
+        coreSize: 10
 #zuul:
 #  ribbonIsolationStrategy: THREAD #设置Hystrix隔离策略为线程池
 #  threadPool:

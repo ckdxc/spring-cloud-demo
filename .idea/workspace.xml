@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546d2a62-b55b-4e37-b617-83a38c4bcf54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/java/com/gospel/spring/cloud/demo/zuul/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/java/com/gospel/spring/cloud/demo/zuul/provider/WebAdminFeignFallbackProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/WebAdminFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/WebAdminFeignApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/service/hystrix/AdminServiceHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/service/hystrix/AdminServiceHystrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,11 +36,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="314">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/java/com/gospel/spring/cloud/demo/zuul/provider/WebAdminFeignFallbackProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -70,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-ribbon/src/main/java/com/gospel/spring/cloud/demo/web/admin/ribbon/WebAdminRibbonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +93,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-ribbon/src/main/java/com/gospel/spring/cloud/demo/web/admin/ribbon/service/AdminService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="22" column="80" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="80" />
+              <caret line="22" column="80" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,33 +126,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-demo-service-admin/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/WebAdminFeignApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="299">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,18 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/config/HystrixDashboardConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,6 +212,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/service/AdminService.java" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/WebAdminFeignApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/java/com/gospel/spring/cloud/demo/zuul/pro.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/java/com/gospel/spring/cloud/demo/zuul/provider/WebAdminFeignFallbackProvider.java" />
       </list>
     </option>
   </component>
@@ -262,145 +252,6 @@
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-dependencies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-service-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,169 +259,124 @@
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gospel" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-web-admin-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gospel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gospel" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gospel" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gospel" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gospel" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gospel" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-demo-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -595,7 +401,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.30487806" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -685,7 +491,7 @@
       <workItem from="1558068063850" duration="562000" />
       <workItem from="1558068643626" duration="2497000" />
       <workItem from="1558071166351" duration="14592000" />
-      <workItem from="1558314239039" duration="19510000" />
+      <workItem from="1558314239039" duration="24908000" />
     </task>
     <task id="LOCAL-00001" summary="spring-cloud-demo">
       <created>1558077106916</created>
@@ -722,31 +528,46 @@
       <option name="project" value="LOCAL" />
       <updated>1558321521063</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feign  hystrix Dashboard">
+      <created>1558335511966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558335511966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42202000" />
+    <option name="totallyTimeSpent" value="47600000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985207" visible="true" weight="0.24421169" />
-      <window_info id="Structure" order="1" sideWeight="0.50147927" side_tool="true" weight="0.25248072" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50147927" side_tool="true" weight="0.25248072" />
-      <window_info id="Web" order="7" sideWeight="0.50147927" side_tool="true" weight="0.25248072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49697885" visible="true" weight="0.20011026" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50147927" side_tool="true" weight="0.25248072" />
+      <window_info id="Web" order="6" sideWeight="0.50147927" side_tool="true" weight="0.25248072" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49889746" weight="0.44386694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.27754676" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -755,17 +576,18 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.47089398" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4064449" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972437" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.19018742" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4956217" visible="true" weight="0.15435502" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3296582" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.50437826" side_tool="true" visible="true" weight="0.15435502" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -777,7 +599,8 @@
     <MESSAGE value="hystrix" />
     <MESSAGE value="ribbon  hystrix Dashboard" />
     <MESSAGE value="feign  hystrix Dashboard fail &#10;I don't know why" />
-    <option name="LAST_COMMIT_MESSAGE" value="feign  hystrix Dashboard fail &#10;I don't know why" />
+    <MESSAGE value="feign  hystrix Dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign  hystrix Dashboard" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -862,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/resources/META-INF/additional-spring-configuration-metadata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -880,13 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -948,7 +757,7 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud-demo-service-admin/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -975,7 +784,7 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-ribbon/src/main/java/com/gospel/spring/cloud/demo/web/admin/ribbon/service/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="22" column="80" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="80" />
+          <caret line="22" column="80" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -985,7 +794,7 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-ribbon/src/main/java/com/gospel/spring/cloud/demo/web/admin/ribbon/WebAdminRibbonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1004,18 +813,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/WebAdminFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="299">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/java/com/gospel/spring/cloud/demo/zuul/pro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="314">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repository/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/operators/OnSubscribeLift.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/java/com/gospel/spring/cloud/demo/zuul/provider/WebAdminFeignFallbackProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>

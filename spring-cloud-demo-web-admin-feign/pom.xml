@@ -64,6 +64,7 @@
             <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
         </dependency>
 
+
     </dependencies>
 
     <build>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-demo-config" />
         <module name="spring-cloud-demo-service-admin" />
         <module name="spring-cloud-demo-zuul" />
         <module name="spring-cloud-demo-web-admin-ribbon" />
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-clond-demo-eureka" options="-parameters" />
       <module name="spring-clond-demo-service-admin" options="-parameters" />
+      <module name="spring-cloud-demo-config" options="-parameters" />
       <module name="spring-cloud-demo-eureka" options="-parameters" />
       <module name="spring-cloud-demo-service-admin" options="-parameters" />
       <module name="spring-cloud-demo-web-admin-feign" options="-parameters" />

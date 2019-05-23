@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546d2a62-b55b-4e37-b617-83a38c4bcf54" name="Default Changelist" comment="spring-cloud-demo-config">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config/web-admin-feign-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/web-admin-feign-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-config/src/main/java/com/gospel/spring/cloud/demo/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-config/src/main/java/com/gospel/spring/cloud/demo/config/ConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            <state relative-caret-position="184">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -392,7 +386,7 @@
       <workItem from="1558494712412" duration="13282000" />
       <workItem from="1558573849477" duration="9358000" />
       <workItem from="1558590366364" duration="17000" />
-      <workItem from="1558590424182" duration="759000" />
+      <workItem from="1558590424182" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="spring-cloud-demo">
       <created>1558077106916</created>
@@ -496,7 +490,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102051000" />
+    <option name="totallyTimeSpent" value="102365000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -892,8 +886,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-test.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="184">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>

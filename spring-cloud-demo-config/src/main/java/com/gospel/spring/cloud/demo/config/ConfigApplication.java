@@ -2,6 +2,7 @@ package com.gospel.spring.cloud.demo.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
@@ -12,7 +13,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  *创建时间:2019/5/21 10:31
  *描述: TODO
  */
-@SpringBootApplication
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableConfigServer
 @EnableEurekaClient
 public class ConfigApplication {

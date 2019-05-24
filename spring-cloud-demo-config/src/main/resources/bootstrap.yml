@@ -9,4 +9,5 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/CKDXC/springcloud-config.git
+#          uri: https://github.com/ckdxc/spring-cloud-demo-config-github.git
+          uri: https://gitee.com/CKDXC/spring-cloud-demo-config-gitee.git

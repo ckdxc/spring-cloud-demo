@@ -2,50 +2,21 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-
-
 spring:
+  application:
+    name: hello
   cloud:
     config:
-      name: web-admin-feign             #对应{application}部分
-      profile: dev                         #对应{profile}部分
-      uri: http://localhost:8888           #配置中心的具体地址
-      label: master                        #对应git的分支。如果配置中心使用的是本地存储，则该参数无用
-      discovery:
-#        service-id: spring-cloud-demo-config-server      #指定配置中心的service-id，便于扩展为高可用配置集群。
-        service-id: configserver      #指定配置中心的service-id，便于扩展为高可用配置集群。
-        enabled: true                        #开启Config服务发现支持
-      fail-fast=true:
-    bus:
-      trace:
-        enabled=true:
-#      failFast: true
-#management:
-#  security:
-#    enabled: false  #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限
-#server:
-#  port: 8765
-#
-#feign:
-#  hystrix:
-#    enabled: true
-#    #线程池核心线程数 默认是 10
-#    threadpool:
-#      default:
-#        coreSize: 10
-##zuul:
-##  ribbonIsolationStrategy: THREAD #设置Hystrix隔离策略为线程池
-##  threadPool:
-##    useSeparateThreadPools: true #每个路由使用独立的线程池
-##hystrix:
-##  command:
-##    default:
-##      execution:
-##        timeout:
-##          enabled=false: false
-##management:
-##  endpoints:
-##    web:
-##      exposure:
-##        include: hystrix.stream
-#
+      uri: http://localhost:8888
+      profile: dev
+      label: master
+      name: web-admin-feign
+
+#spring:
+#  application:
+#    name: hello
+#  cloud:
+#    config:
+#      uri: http://user:123456@localhost:8090/
+#      profile: dev
+#      label: master

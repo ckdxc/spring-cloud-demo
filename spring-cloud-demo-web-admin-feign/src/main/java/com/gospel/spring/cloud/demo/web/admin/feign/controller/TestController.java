@@ -17,7 +17,16 @@ public class TestController {
     private String profile;
 
     @GetMapping("/profile")
-    public String  profile(){
+    public String profile() {
         return this.profile;
+    }
+
+    public static void main(String[] args) {
+        int a = 64;
+        int b = -64;
+        System.out.println(a>>2);
+        System.out.println(a<<2);
+        System.out.println(b>>>2);
+        System.out.println(b<<2);
     }
 }

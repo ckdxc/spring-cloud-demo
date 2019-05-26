@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546d2a62-b55b-4e37-b617-83a38c4bcf54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-zipkin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-zipkin/src/main/java/com/gospel/spring/cloud/demo/zipkin/ZipKinApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-zipkin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-zipkin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-zipkin/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zipkin/src/main/java/com/gospel/spring/cloud/demo/zipkin/ZipKinApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#368#369#0" expanded="true" />
@@ -79,16 +74,16 @@
         <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zipkin/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zipkin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state relative-caret-position="288">
+              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -96,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="227" column="26" selection-start-line="227" selection-start-column="26" selection-end-line="227" selection-end-column="26" />
+            <state relative-caret-position="506">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -121,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="71" column="64" lean-forward="true" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+            <state relative-caret-position="311">
+              <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -175,7 +170,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-demo-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-zuul/src/main/java/com/gospel/spring/cloud/demo/zuul/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/service/hystrix/AdminServiceHystrix.java" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-web-admin-ribbon/src/main/java/com/gospel/spring/cloud/demo/web/admin/ribbon/WebAdminRibbonApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/service/AdminService.java" />
@@ -198,10 +192,11 @@
         <option value="$PROJECT_DIR$/spring-cloud-demo-config/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/src/main/java/com/gospel/spring/cloud/demo/web/admin/feign/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-demo-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-zipkin/src/main/java/com/gospel/spring/cloud/demo/zipkin/ZipKinApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-zipkin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-demo-zipkin/pom.xml" />
       </list>
     </option>
   </component>
@@ -275,14 +270,6 @@
               <item name="spring-cloud-demo-zipkin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-zipkin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,6 +382,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipKinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-demo-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gospel.spring.cloud.demo.zipkin.ZipKinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-demo-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gospel.spring.cloud.demo.zuul.ZuulApplication" />
@@ -410,6 +404,7 @@
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.WebAdminFeignApplication" />
       <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.ZipKinApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -445,7 +440,7 @@
       <workItem from="1558685748917" duration="3187000" />
       <workItem from="1558791041698" duration="225000" />
       <workItem from="1558793437112" duration="1334000" />
-      <workItem from="1558876414116" duration="1494000" />
+      <workItem from="1558876414116" duration="1834000" />
     </task>
     <task id="LOCAL-00001" summary="spring-cloud-demo">
       <created>1558077106916</created>
@@ -615,11 +610,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558791082905</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="zipkin service">
+      <created>1558877944746</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1558877944746</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134676000" />
+    <option name="totallyTimeSpent" value="135016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,7 +692,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="config ok" />
     <MESSAGE value="local repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="local repository" />
+    <MESSAGE value="zipkin service" />
+    <option name="LAST_COMMIT_MESSAGE" value="zipkin service" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -999,17 +1002,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="227" column="26" selection-start-line="227" selection-start-column="26" selection-end-line="227" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zipkin/src/main/java/com/gospel/spring/cloud/demo/zipkin/ZipKinApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#368#369#0" expanded="true" />
@@ -1018,24 +1014,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zipkin/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-demo-zipkin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-demo-web-admin-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="71" column="64" lean-forward="true" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+        <state relative-caret-position="288">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>

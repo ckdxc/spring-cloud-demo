@@ -27,6 +27,7 @@
         <!-- Spring Settings -->
 <!--        <spring-cloud.version>Finchley.RC1</spring-cloud.version>-->
         <spring-cloud.version>Greenwich.RC2</spring-cloud.version>
+        <zipkin.version>2.10.1</zipkin.version>
     </properties>
 
     <dependencyManagement>

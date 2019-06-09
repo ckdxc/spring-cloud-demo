@@ -7,13 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-demo-config" />
-        <module name="spring-cloud-demo-service-admin" />
-        <module name="spring-cloud-demo-zuul" />
         <module name="spring-cloud-demo-web-admin-ribbon" />
+        <module name="spring-cloud-demo-zuul" />
         <module name="spring-cloud-demo-web-admin-feign" />
         <module name="spring-cloud-demo-zipkin" />
-        <module name="spring-clond-demo-service-admin" />
+        <module name="spring-cloud-demo-service-admin" />
         <module name="spring-cloud-demo-eureka" />
+        <module name="spring-clond-demo-service-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

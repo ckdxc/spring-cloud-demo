@@ -10,6 +10,7 @@
         <module name="spring-cloud-demo-web-admin-ribbon" />
         <module name="spring-cloud-demo-zuul" />
         <module name="spring-cloud-demo-web-admin-feign" />
+        <module name="spring-cloud-demo-admin" />
         <module name="spring-cloud-demo-zipkin" />
         <module name="spring-cloud-demo-service-admin" />
         <module name="spring-cloud-demo-eureka" />
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-clond-demo-eureka" options="-parameters" />
       <module name="spring-clond-demo-service-admin" options="-parameters" />
+      <module name="spring-cloud-demo-admin" options="-parameters" />
       <module name="spring-cloud-demo-config" options="-parameters" />
       <module name="spring-cloud-demo-eureka" options="-parameters" />
       <module name="spring-cloud-demo-service-admin" options="-parameters" />

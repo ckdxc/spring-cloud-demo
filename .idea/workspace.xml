@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="546d2a62-b55b-4e37-b617-83a38c4bcf54" name="Default Changelist" comment="springboot admin 服务端">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-admin-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-admin-client/src/main/java/com/gospel/spring/cloud/demo/admin/client/AdminClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-demo-admin-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="546d2a62-b55b-4e37-b617-83a38c4bcf54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo-dependencies/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -262,37 +255,6 @@
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-admin-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-demo-dependencies" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -311,7 +273,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8.0_201" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/spring-clond-demo-service-admin/src/main/java/com/gospel/spring" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-demo-admin-client/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -480,7 +442,7 @@
       <workItem from="1559040675600" duration="777000" />
       <workItem from="1560080837423" duration="2505000" />
       <workItem from="1560135559528" duration="648000" />
-      <workItem from="1560216647355" duration="636000" />
+      <workItem from="1560216647355" duration="4383000" />
     </task>
     <task id="LOCAL-00001" summary="spring-cloud-demo">
       <created>1558077106916</created>
@@ -692,11 +654,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560082635059</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Spring Boot Admin 客户端">
+      <created>1560217304956</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1560217304956</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158446000" />
+    <option name="totallyTimeSpent" value="162193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,7 +741,8 @@
     <MESSAGE value="包版本无法被托管到 父级module&#10;原因不知" />
     <MESSAGE value="有变动" />
     <MESSAGE value="springboot admin 服务端" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot admin 服务端" />
+    <MESSAGE value="Spring Boot Admin 客户端" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Boot Admin 客户端" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

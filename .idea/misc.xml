@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-demo-config/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-demo-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-demo-admin-client/pom.xml" />
       </list>
     </option>
   </component>

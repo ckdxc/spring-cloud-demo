@@ -11,8 +11,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  *创建时间:2019/6/11 9:37
  *描述: TODO
  */
-@SpringBootApplication
 @EnableDiscoveryClient
+@SpringBootApplication
 public class AdminClientApplication {
     public static void main(String[] args) {
         SpringApplication.run(AdminClientApplication.class, args);
